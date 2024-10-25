@@ -3,12 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    
-}
+
 .header {
     background-image: url(images/bg1.jpg);
-    background-position: top;
+    background-size: cover;
     padding: 20px;
 }
 
@@ -24,20 +22,37 @@ body{
 }
 
 .MainHeading h2 {
-    color: rgb(231, 59, 59);
+    color: #EC5242;
     font-size: 20px;
 }
 
 .MainHeading h1 {
     font-weight: bold;
-    background: url('images/bgText.jpg') no-repeat center center;
+    background: url('images/bgText.jpg') no-repeat bottom center;
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    margin-bottom: 20px;
+    font-family: 'Arial';
+    font-weight: bold;
 }
 
 .detail {
+    background-color: #e6e1e1;
     padding: 10px;
     border: 2px solid white
+    
+}
+
+.Main-Program {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/bg2.jpg) no-repeat;
+    padding: 
+}
+
+.program-item {
+    display: flex;
+    
 }
