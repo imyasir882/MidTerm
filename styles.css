@@ -3,12 +3,18 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    
+}
 .header {
     background-image: url(images/bg1.jpg);
+    background-position: top;
+    padding: 20px;
 }
 
 .hambar {
+    
+    padding-bottom: 40px;
     display: flex;
 }
 
@@ -23,5 +29,15 @@
 }
 
 .MainHeading h1 {
-    font-weight:bolder;
+    font-weight: bold;
+    background: url('images/bgText.jpg') no-repeat center center;
+    background-size: cover;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.detail {
+    padding: 10px;
+    border: 2px solid white
 }
