@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url(images/bg1.jpg);
+}
+
+.hambar {
+    display: flex;
+}
+
+.hambar img {
+    width: 30px;
+    height: 30px;
+}
+
+.MainHeading h2 {
+    color: rgb(231, 59, 59);
+    font-size: 20px;
+}
+
+.MainHeading h1 {
+    font-weight:bolder;
+}
